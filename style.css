@@ -1,4 +1,5 @@
 body {
+    display: grid;
     margin: 0;
     padding: 0;
 }
@@ -42,6 +43,9 @@ h3 {
     padding-right: 10px;
 }
 
+/*menu*/
+
+
 .top-menu {
     padding: 10px 10px;
     position: fixed;
@@ -58,9 +62,9 @@ h3 {
     clear: both;
 }
 
-.navbar-logo {
+/* .navbar-logo {
     display: inline-block;
-}
+} */
 
 .menu-main {
     list-style: none;
@@ -94,26 +98,6 @@ h3 {
     opacity: 0.7;
 }
 
-@media (max-width: 660px) {
-    .menu-main {
-        float: none;
-        padding-top: 20px;
-    }
-    .top-menu {
-        text-align: center;
-        padding: 20px 0 0 0;
-    }
-    .menu-main a {
-        padding: 0 10px;
-    }
-}
-
-@media (max-width: 600px) {
-    .menu-main li {
-        display: block;
-    }
-}
-
 /*header*/
 
 .header {
@@ -129,12 +113,7 @@ div.intro-text {
     padding-bottom: 600px;
 }
 
-@media (min-width: 768px) {
-    div .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
-    }
-}
+
 
 header .intro-text .intro-lead-in {
     font-family: proxima-nova, sans-serif;
@@ -147,16 +126,7 @@ header .intro-text .intro-lead-in {
     text-transform: uppercase;
 }
 
-/* @media (min-width: 768px) {
-    header .intro-text .intro-lead-in {
-        font-family: proxima-nova, sans-serif;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 40px;
-        margin-bottom: 25px;
-    }
-} */
+
 
 .intro-heading {
     color: #fefdfd;
@@ -355,27 +325,73 @@ div .team {
     border-radius: 120px;
 }
 
+
+
 /*map & form*/
 .geo {
     background-color: #ebebeb;
 }
 
-#map {
-    position: relative;
-    width: 100%;
-    height: 900px;
-}
 
-.api {
-    background-color: #9f9acf;
+#map {
+	height: 900px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+ 
+#contactform {
     position: absolute;
     z-index: 1;
-    width: 300px;
     margin: 60px auto 0;
-    padding: 10px;
-    height: 300px;
-    opacity: 0.5;
+    padding: 65px;
+    padding-left: 450px;
+    padding-top: 125px;
+    height: auto;
+    opacity: 1;
+    
 }
+
+.requst{
+    width: 414px;
+    height: 56px;
+    background-color: #ebebeb;
+    opacity: 0.7;}
+
+.sms {color: white;
+    width: 860px;
+    height: 200px;
+    opacity: 0.7;}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 293px;
+    height: 70px;
+    background-color: #9f9acf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5e5985;
+  }
 
 /*footer*/
 
@@ -404,3 +420,4 @@ footer {
 .net:hover {
     opacity: 0.5;
 }
+

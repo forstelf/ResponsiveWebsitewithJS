@@ -7,24 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Getting Started</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="font.css"> -->
+    <link rel="stylesheet" href="./slick/slick.css">
+
 </head>
 
 <body>
     <section class="header">
 
-        <nav class="top-menu">
+        <nav class="top-menu" id="menu">
             <ul class="menu-main">
-                <li class=""><a href="">HOME</a></li>
-                <li class=""><a href="">ABOUT</a></li>
-                <li class=""><a href="">SERVICES</a></li>
-                <li class=""><a href="">WORKS</a></li>
-                <li class=""><a href="">CONTACT</a></li>
+                <li class=""><a href="#home">HOME</a></li>
+                <li class=""><a href="#about">ABOUT</a></li>
+                <li class=""><a href="#services">SERVICES</a></li>
+                <li class=""><a href="#work">WORKS</a></li>
+                <li class=""><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
 
         <header>
+            <a name="home"></a>
             <div class="intro-text">
+
                 <h1 class="intro-lead-in">CreativE DIGITAL Project</h1>
                 <p class="intro-heading">Duis mollis, est non commodo luctus,
                     nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
@@ -33,8 +36,10 @@
     </section>
 
     <section class="meet">
+        <a name="about"></a>
         <div class="cont">
             <div>
+
                 <img src="./image/Icon-AboutUs.png" class="icone" alt="">
                 <h2 class="about">About Us</h2>
             </div>
@@ -55,6 +60,7 @@
     </section>
 
     <section class="meet">
+        <a name="services"></a>
         <div class="wrapper">
             <div class="grap">
                 <img src="./image/Icon-Graphic.png" class="icone" alt="">
@@ -88,15 +94,17 @@
     </section>
 
     <section class="recent">
+        <a name="work"></a>
         <div>
             <img src="./image/Icon-Works.png" class="center" alt="">
             <h2 class="work">RECENT WORKS</h2>
         </div>
-        <div class="">
-            <img src="./image/Campofrío_Home_a1_1800.jpg" alt="">
-            <!-- <img src="./image/Campofrío_Home_a1_1800.jpg" alt="">
-            <img src="./image/Campofrío_Home_a1_1800.jpg" alt=""> -->
-        </div>
+
+        <ul class="slider">
+            <li><img src="./image/Campofrío_Home_a1_1800.jpg" alt="slider2"></li>
+            <li><img src="./image/Campofrío_Home_a1_1800.jpg" alt="slider3"></li>
+            <li><img src="./image/Campofrío_Home_a1_1800.jpg" alt="slider4"></li>
+        </ul>
 
 
         <button>View Gallery</button>
@@ -162,17 +170,22 @@
     </section>
 
     <section class="geo">
+        <a name="contact"></a>
         <div class="get">
             <img src="./image/Layer_7.png" alt="" class="center">
             <h2>GET IN TOUCH</h2>
-            <form action="/action_page.php">
-                <input type="text" name="FirstName" value="Your Name *"><br>
-                <input type="text" name="YourEmail" value="Your Email *"><br>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-                <input type="submit" value="Submit">
-            </form>
-            <div id="map"></div>
 
+            <div id="contactform">
+                <form>
+                    <input type="text" name="field" class="field-divided" placeholder="Your Name *">
+                    <input type="text" name="field" class="field-divided" placeholder="Your Email *">
+                    <label><span class="required"></span></label>
+                    <textarea name="" id="" class="field-long field-textarea"
+                        placeholder="Write something.."></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="map"></div>
     </section>
 
 
@@ -191,9 +204,22 @@
     </footer>
 
 
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -7.961981, lng: 112.6340297 },
+                zoom: 15
+            });
+        }
+    </script>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbiS_KQ_7HL-Dn04gy-lTbfByj7NiPYks&callback=initMap"
         async defer></script>
-    <script src="js.js"></script>
+
+    <script src="./ajax/jQuery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
 
 </body>
 
