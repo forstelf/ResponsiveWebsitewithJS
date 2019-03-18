@@ -145,20 +145,7 @@ header .intro-text .intro-lead-in {
     padding-left: 270px;
 }
 
-.about {
-    background-image: url(./image/DeathtoStock_Wired8.jpg);
-    width: 380px;
-    height: 555px;
-    /* opacity: 0.5; */
-    margin: auto;
-    color: #9f9acf;
-    font-family: proxima-nova, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 47.13px;
-    text-transform: uppercase;
-    text-align: center;
-}
+.title{padding-top: 115px;}
 
 .mollis {
     text-align: center;
