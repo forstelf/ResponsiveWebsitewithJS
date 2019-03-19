@@ -1,0 +1,37 @@
+/*About us*/
+
+.cont {
+    display: inline-grid;
+    grid-template-columns: 380px 790px;
+    height: 800px;
+    background-color: #ebebeb;
+    padding-left: 270px;
+}
+
+.title {
+    padding-top: 115px;
+}
+
+.mollis {
+    text-align: center;
+    color: #665f60;
+    font-family: pt-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 100px;
+    padding-top: 78px;
+}
+
+.learn {
+    width: 195px;
+    height: 50px;
+    border: 1px solid #7d7a7c;
+}
+
+.more {
+    color: #7d7a7c;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: italic;
+}

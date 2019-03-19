@@ -1,0 +1,51 @@
+/*server*/
+
+.wrapper {
+    padding-right: 216px;
+    padding-left: 270px;
+    display: grid;
+    grid-template-columns: 0fr 0fr 410px;
+}
+
+.grid-item {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.grap {
+    width: 380px;
+    height: 400px;
+    background-color: #dbdbdb;
+}
+
+.wdev {
+    width: 380px;
+    height: 400px;
+    background-color: #dbdbdb;
+}
+
+.web {
+    width: 380px;
+    height: 400px;
+    background-color: #ebebeb;
+}
+
+.seo {
+    width: 380px;
+    height: 400px;
+    background-color: #ebebeb;
+}
+
+.mdev {
+    background-image: url(./image/unsplash_523ae1f5502d6_1.jpg);
+    width: 410px;
+    height: 799px;
+    /* opacity: 0.5; */
+}
+
+.icone {
+    margin-top: 99px;
+    padding-left: 167px;
+}

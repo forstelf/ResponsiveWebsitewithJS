@@ -1,0 +1,75 @@
+/*team*/
+
+h2 {
+    color: #665f60;
+    font-family: proxima-nova, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.meet {
+    background-color: #ebebeb;
+}
+
+div .team {
+    box-sizing: border-box;
+}
+
+.col-3 {
+    background-color: #ffffff;
+    background-image: linear-gradient(transparent 86%, #9f9acf 50%);
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.team-item {
+    text-align: center;
+}
+
+.team-item h3 {
+    color: #9f9acf;
+    font-family: proxima-nova, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team-item .team-location {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.team-item .team-location {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.team-position {
+    color: #665f60;
+    font-family: pt-sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.team-item p {
+    font-size: 13px;
+    /* font-weight: 300px; */
+    padding: 5px 10px 20px 10px;
+}
+
+.img-responsive {
+    border-radius: 120px;
+}

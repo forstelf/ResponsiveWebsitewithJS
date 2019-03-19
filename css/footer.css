@@ -1,0 +1,46 @@
+/*footer*/
+
+footer {
+    height: 185px;
+    background-color: #9f9acf;
+}
+
+.all {
+    color: #ffffff;
+    font-family: pt-sans, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    margin: 0px;
+    /* padding-left: 165px;
+    padding-right: 180px; */
+    padding-top: 82px;
+}
+
+.net {
+    float: right;
+    margin: 10px;
+}
+
+.net:hover {
+    opacity: 0.5;
+}
+
+.topbutton {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+    background-color: #9f9acf;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: #333;
+    font-size: 12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}

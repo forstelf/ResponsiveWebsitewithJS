@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: #665f60;
+    font-family: pt-sans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.servic {
+    color: #fefcfd;
+    font-family: proxima-nova, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cras {
+    color: #665f60;
+    font-family: pt-sans, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 92px;
+    padding-right: 100px;
+}
+
+.risus {
+    color: #fefcfd;
+    font-family: pt-sans, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    /* font-family: "PT Sans"; */
+    /* font-family: "PT Sans"; */
+    /* font-weight: 700; */
+    padding-left: 43px;
+    padding-right: 10px;
+}
+
