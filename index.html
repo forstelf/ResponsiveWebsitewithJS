@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Getting Started</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css" />
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./slick/slick.css">
 
 </head>
 
@@ -44,16 +48,16 @@
             </div>
             <div class="mollis">
                 <p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget
-                    metus.
-                    Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum
-                    faucibus dolor auctor.
+                    metus.Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet
+                    rutrum
+                    faucibus dolor auctor.</p>
 
-                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue
-                    laoreet
-                    rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue
+                    laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                    venenatis
                     vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed
                     posuere consectetur est at lobortis.</p>
-                <button>Learn More</button>
+                <button class="learn more">Learn More</button>
             </div>
         </div>
     </section>
@@ -92,21 +96,68 @@
         </div>
     </section>
 
-    <section class="recent">
+    <section class="recent gallerys body">
         <a name="work"></a>
         <div>
             <img src="./image/Icon-Works.png" class="center" alt="">
             <h2 class="work">RECENT WORKS</h2>
         </div>
 
-        <ul class="slider">
-            <li><img src="./image/Campofrío_Home_a1_1800.jpg" alt="slider2"></li>
-            <li><img src="./image/Campofrío_Home_a1_1800.jpg" alt="slider3"></li>
-            <li><img src="./image/Campofrío_Home_a1_1800.jpg" alt="slider4"></li>
-        </ul>
+        <div class="container">
+            <div class="synch-carousels">
+
+                <div class="left child">
+                    <div class="gallery">
+                        <div class="item">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/gallery1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/gallery2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/gallery3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right child">
+                    <div class="gallery2">
+                        <div class="item">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/gallery1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/gallery2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/gallery3.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="nav-arrows">
+                        <button class="arrow-left but">
+                            <!--SVGs from iconmonstr.com-->
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                                clip-rule="evenodd">
+                                <path
+                                    d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z" />
+                            </svg>
+                        </button>
+                        <button class="arrow-right but">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                                clip-rule="evenodd">
+                                <path
+                                    d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="photos-counter">
+                        <span></span><span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-        <button>View Gallery</button>
+        <button class="view Gallery">View Gallery</button>
     </section>
 
     <section class="meet">
@@ -185,6 +236,21 @@
                 </form>
             </div>
             <div id="map"></div>
+            <div>
+                <input type="checkbox" id="hmt" class="men-ticker">
+                <label class="btn-men" for="hmt">
+                    <span class="first"></span>
+                    <span class="second"></span>
+                    <span class="third"></span>
+                    <!-- <span><img src="/image/Logo.svg" alt=""></span> -->
+                </label>
+                <ul class="men">
+                    <li>Ikan Piranha Atas 220C
+                            Malang - East Java
+                            Indonesia</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
 
@@ -200,6 +266,8 @@
             </p>
 
         </div>
+        <a href="#" class="topbutton"><img src="/image/arrow-up.svg" alt=""></a>
+
     </footer>
 
 
@@ -217,8 +285,7 @@
         async defer></script>
 
     <script src="./ajax/jQuery.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
 
 </body>
 
