@@ -4,7 +4,8 @@
     background-color: #d8d3d3f5;
 }
 
-.get, .git {
+.get,
+.git {
     /* position: absolute;
     z-index: 1; */
     color: #ffffff;
@@ -13,6 +14,7 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+
 }
 
 #map {
@@ -27,10 +29,11 @@
 .wrapperform {
     position: absolute;
     z-index: 1;
-    margin: 225px auto 0;
+    margin: auto 400px;
     width: 100%;
     max-width: 680px;
-    padding: 20px;
+    /* padding: 20px;
+    padding-right: 25px; */
     box-sizing: border-box;
     opacity: 1;
 }
@@ -157,85 +160,3 @@
 
 /*gps*/
 
-/* #hmt {
-    position: absolute;
-}
-
-.address .btn-men {
-    justify-content: flex-end;
-    display: flex;
-}
-
-.men {
-    display: block;
-    position: fixed;
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    box-sizing: border-box;
-    width: 350px;
-    height: 85px;
-    background-color: #ebebeb;
-    top: 250px;
-    right: -350px;
-    transition: left .2s;
-    z-index: 2;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-}
-
-.men-ticker {
-    display: none;
-}
-
-.btn-men {
-    color: #fff;
-    background-color: #9f9acf;
-    padding: 25px;
-    position: fixed;
-    top: 250px;
-    right: 8px;
-    cursor: pointer;
-    transition: right .23s;
-    z-index: 3;
-    width: 35px;
-    height: 35px;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-}
-
-.btn-men span {
-    display: block;
-    height: 5px;
-    background-color: #fff;
-    margin: 5px 0 0;
-    transition: all .1s linear .23s;
-    position: relative;
-}
-
-.btn-men span.first {
-    margin-top: 0;
-}
-
-.men-ticker:checked~.btn-men {
-    right: 350px;
-}
-
-.men-ticker:checked~.men {
-    right: 0;
-}
-
-.men-ticker:checked~.btn-men span.first {
-    -webkit-transform: rotate(45deg);
-    top: 10px;
-}
-
-.men-ticker:checked~.btn-men span.second {
-    opacity: 0;
-}
-
-.men-ticker:checked~.btn-men span.third {
-    -webkit-transform: rotate(-45deg);
-    top: -10px;
-}
- */

@@ -7,14 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Getting Started</title>
     <link rel="stylesheet" href="css/general.css">
+    <!-- <link rel="stylesheet" href="@media.css"> -->
     <link rel="stylesheet" href="./js/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="./js/jquery.bxslider.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.bx-slider').bxSlider();
-        });
-    </script>
 
 
 </head>
@@ -208,9 +202,12 @@
     <section class="geo">
         <a name="contact"></a>
         <div class="get">
-            <img src="./image/Layer_7.png" alt="" class="center">
-            <p class="git">GET IN TOUCH</p>
+            <!-- <img src="./image/Layer_7.png" alt="" class="center">
+            <p class="git">GET IN TOUCH</p> -->
             <div class="wrapperform">
+                <div><img src="./image/Layer_7.png" alt="" class="center">
+                    <p class="git">GET IN TOUCH</p></div>
+                    
                 <div class="form">
                     <div class="top-form">
                         <div class="inner-form">
@@ -228,24 +225,15 @@
                     </div>
                     <div class="btn">send form</div>
                 </div>
+
+               
+
+                <!-- <label for="press"><img src="./image/Box.png" alt=""></label> -->
+
+                <!-- <label for="press"><img src="./image/Rectangle_11.png" alt=""></label> -->
+
             </div>
-        </div>
-        <div id="map"></div>
-
-
-        <!-- <div class="address">
-                <input type="checkbox" id="hmt" class="men-ticker">
-                <label class="btn-men" for="hmt">
-                    <span class="first"></span>
-                    <span class="second"></span>
-                    <span class="third"></span>
-                </label>
-                <ul class="men">
-                    <li>Ikan Piranha Atas 220C
-                        Malang - East Java
-                        Indonesia</li>
-                </ul>
-            </div> -->
+            <div id="map"></div>
 
     </section>
 
@@ -279,6 +267,14 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLYq7_IEtLoJbjmvnPSOp_eb8Ce5waKrs&callback=initMap"
         async defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bx-slider').bxSlider();
+        });
+    </script>
 
 </body>
 
