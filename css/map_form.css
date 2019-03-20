@@ -1,7 +1,18 @@
 /*map & form*/
 
 .geo {
-    background-color: #ebebeb;
+    background-color: #d8d3d3f5;
+}
+
+.get, .git {
+    /* position: absolute;
+    z-index: 1; */
+    color: #ffffff;
+    font-family: pt-sans, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 #map {
@@ -97,11 +108,12 @@
     width: 200px;
     padding: 10px 0;
     border-radius: 2px;
+    font-size: 20px;
     text-align: center;
     color: #fff;
     font-family: proxima-nova, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     cursor: pointer;
 }
 
@@ -142,8 +154,6 @@
         box-sizing: border-box;
     }
 }
-
-
 
 /*gps*/
 

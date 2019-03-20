@@ -14,7 +14,7 @@
     text-transform: uppercase;
     margin: 0;
     text-align: center;
-    padding-top: 36px;
+    /* padding-top: 10px; */
 }
 
 .center {
@@ -24,15 +24,31 @@
     padding-top: 50px;
 }
 
-
 /*slide*/
 
-.slider {
-    padding-left: 15px;
+.bx-wrap {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    top: 5%;
 }
 
-/*buttom view gallery*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bx-slider img {
+    min-width: 100%;
+    height: auto;
+}
+
+/*button view gallery*/
+
 .view {
+    width: 195px;
+    height: 50px;
     border: 1px solid #7d7a7c;
     background-color: #9f9acf;
 }
