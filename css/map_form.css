@@ -14,7 +14,6 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 #map {
@@ -29,11 +28,12 @@
 .wrapperform {
     position: absolute;
     z-index: 1;
-    margin: auto 400px;
+    /* margin: auto 400px; */
     width: 100%;
     max-width: 680px;
-    /* padding: 20px;
-    padding-right: 25px; */
+    padding: 20px;
+    padding-right: 25px;
+    margin-left: 450px;
     box-sizing: border-box;
     opacity: 1;
 }
